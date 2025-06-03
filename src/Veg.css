@@ -1,0 +1,123 @@
+/* Container and heading */
+.v1 {
+    max-width: 1000px;
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    color: #2c3e50;
+}
+
+/* Menu sections */
+.veg, .v8 {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    margin-bottom: 40px;
+}
+
+/* Each dish card */
+.v2, .v3, .v4, .v5, .v6, .v7 {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.v2:hover, .v3:hover, .v4:hover, .v5:hover, .v6:hover, .v7:hover {
+    transform: translateY(-5px);
+}
+
+.v2 img, .v3 img, .v4 img, .v5 img, .v6 img, .v7 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+h2 {
+    margin: 15px 0 10px;
+    font-size: 1.5rem;
+    color: #34495e;
+}
+
+p {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+/* Buttons */
+button {
+    background-color: #27ae60;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px 5px 5px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Quantity display */
+span {
+    font-size: 1.2rem;
+    padding: 0 10px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/* Cart styles */
+.cart {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 0.15);
+}
+
+.cart h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.cart li {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #34495e;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 6px;
+}
+
+.cart h3 {
+    text-align: right;
+    margin-bottom: 20px;
+    color: #27ae60;
+    font-size: 1.4rem;
+}
